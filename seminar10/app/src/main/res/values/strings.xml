@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">seminar4_1098</string>
+    <string-array name="optiuni_zile">
+        <item> 1 zi </item>
+        <item> 5 zile</item>
+    </string-array>
+
+</resources>
