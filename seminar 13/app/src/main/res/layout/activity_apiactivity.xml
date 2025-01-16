@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".APIActivity">
+
+    <TextView
+        android:id="@+id/textViewAPI"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+
+        android:text="Introduceti Orasul: " />
+
+    <EditText
+        android:id="@+id/editTextAPI"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Scrieti Orasul" />
+
+    <Spinner
+        android:id="@+id/spinnerZile"
+        android:layout_width="271dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/optiuni_zile" />
+
+    <Button
+        android:id="@+id/buttonTrimitereAPI"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Oras" />
+
+    <TextView
+        android:id="@+id/rezultatText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rezultatul va fi afisat aici"
+        android:paddingTop="16dp" />
+
+
+</LinearLayout>
