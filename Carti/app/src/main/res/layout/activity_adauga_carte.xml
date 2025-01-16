@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdaugaCarte"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Informatii Carte" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="182dp"
+        android:layout_height="38dp"
+        android:text="Denumire Carte" />
+
+    <EditText
+        android:id="@+id/editTextDenumire"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Introdu denumire" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/autorTextView"
+            android:layout_width="182dp"
+            android:layout_height="38dp"
+            android:text="Autor Carte" />
+
+        <EditText
+            android:id="@+id/editTextAutor"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:inputType="text"
+            android:text="Introdu autor" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="182dp"
+            android:layout_height="38dp"
+            android:text="Introdu An Carte"/>
+
+        <EditText
+            android:id="@+id/anCarteEt"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Introdu an Carte"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="182dp"
+            android:layout_height="38dp"
+            android:text="A fost citita?"/>
+
+        <CheckBox
+            android:id="@+id/cititaCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DA" />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center_horizontal"
+        android:text="Adauga Carte" />
+
+</LinearLayout>
+
+
+</LinearLayout>
